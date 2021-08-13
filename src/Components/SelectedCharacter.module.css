@@ -1,0 +1,14 @@
+.selected_wrapper{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-between;
+   /* width: 70%; */
+
+}
+.wrapper{
+   width: 50%;
+}
+.back{
+   display: block;
+}
