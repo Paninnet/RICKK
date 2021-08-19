@@ -35,7 +35,7 @@ export const SelectedCharacter = (props) => {
             </div>
 
          </div>
-         <NavLink className={classes.back} to="/"><button>Назад</button></NavLink>
+         <NavLink className={classes.back} to="/RICKK/"><button>Назад</button></NavLink>
       </div>
    )
 }

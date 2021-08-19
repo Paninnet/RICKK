@@ -62,10 +62,10 @@ export default function AllCharacter() {
 
    return (
       <div>
-         <Route exact path='/'> <input className='search' type='text' onChange={e => setInputText((e.target.value).toLowerCase())} value={inputText} placeholder="character name:"></input> </Route>
+         <Route exact path='/RICKK/'> <input className='search' type='text' onChange={e => setInputText((e.target.value).toLowerCase())} value={inputText} placeholder="character name:"></input> </Route>
          <div className={classes.all_wrapper}>
             {Characters}
-            <Route path={`/selected/:id`} data={data} component={SelectedCharacter}></Route>
+            <Route path={`/RICKK/selected/:id`} data={data} component={SelectedCharacter}></Route>
          </div>
       </div>
 

@@ -11,8 +11,8 @@ export const Character = (props) => {
 
    return (
       <Switch>
-         <Route exact path="/">
-            <NavLink className={classes.link} to={`/selected/${props.data.id}`}>
+         <Route exact path="/RICKK/">
+            <NavLink className={classes.link} to={`/RICKK/selected/${props.data.id}`}>
                <div className={classes.character_wrapper}>
                   <img className={classes.foto} src={props.data.image} alt="Фото"></img>
                   <h2 className={classes.name}>{props.data.name}</h2>
